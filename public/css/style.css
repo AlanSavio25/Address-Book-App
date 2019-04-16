@@ -1,0 +1,206 @@
+/* less for colours */
+
+/* general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 0.01em;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.h2 {
+    padding: 1.3em;
+    letter-spacing: 0.03em;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.border {
+    border: 1px solid #b77e7e;
+    border-radius: 2px;
+}
+
+.bg-gray {
+    background: #e8e8e8;
+}
+
+.bg-form {
+    background: #e5f5fd;
+}
+
+.relative-margin {
+    position: relative;
+    margin: 0 auto 1em;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: 0.2em;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+/* header */
+.header {
+    margin-bottom: 2em;
+    background: #003366;
+    position: relative;
+}
+
+.header__h1 {
+    padding: 1.2em 0 1.8em 2em;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.form-find-sort {
+    position: absolute;
+    bottom: 0.7em;
+    right: 0.7em;
+}
+
+.form-find-sort__find {
+    margin-right: 1em;
+    padding: 5.2px;
+    font-size: 0.9em;
+}
+
+.form-find-sort__sort {
+    padding: 4.7px;
+    font-size: 0.9em;
+}
+
+/* addresses */
+#addresses-wrapper {
+    position: absolute;
+    left: 3%;
+    width: 60%;
+}
+
+.address-form-wrapper__text {
+    padding: 6em;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2em;
+    color: #003366;
+    display: block;
+}
+
+#addresses-header {
+    position: relative;
+}
+
+.button-add-address {
+    position: absolute;
+    top: 1.8em;
+    right: 25%;
+    padding: 0.7em;
+    font-size: 0.95em;
+    background-color: #003366;
+    color: #fff;
+}
+
+.button-delete-addresses {
+    position: absolute;
+    top: 1.8em;
+    right: 7%;
+    padding: 0.7em;
+    font-size: 0.95em;
+    background-color: #003366;
+    color: #fff;
+}
+
+.add-address-fields {
+    position: absolute;
+    right: 7%;
+    padding: 5.2px;
+    font-size: 0.9em;
+    border: 1px solid #5a4f4f;
+    border-radius: 2px;
+    width: 45%;
+}
+
+.address-form-add,
+.address-form-edit {
+    padding: 1.3em 4em;
+    display: none;
+    border: 1px solid #dff4ff;
+}
+
+.address-form-add__text,
+.address-form-edit__text {
+    padding-bottom: 1em;
+    color: #c51b11;
+    font-weight: 700;
+    display: none;
+}
+
+.address-div {
+    padding: 1em 4em;
+    border: 1px solid #fffefe;
+}
+
+.address-div__text {
+    margin: 0.7em 0;
+}
+
+.add-to-group__checkbox {
+    margin: 0 0.7em 0.7em 1.1em;
+}
+
+.input-div {
+    height: 2.5em;
+}
+
+.input-label {
+    position: relative;
+    top: 0.3em;
+}
+
+.button-edit {
+    position: absolute;
+    top: 2em;
+    right: 4.5em;
+}
+
+.button-delete {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
+
+.button-save,
+.button-edit-save {
+    position: absolute;
+    bottom: 2em;
+    right: 7%;
+}
+
+.button-cancel,
+.button-edit-cancel {
+    position: absolute;
+    top: 2em;
+    left: 1.5em;
+}
+
+/* GROUPS */
+#groups {
+    position: absolute;
+    right: 3%;
+    width: 25%;
+}
+
+#group-choice {
+    padding: 2em;
+}
+
+#group-choice p {
+    margin: 0;
+}
