@@ -1,8 +1,8 @@
 # ADDRESS-BOOK
 
-An address book project created with the use of basic frontend technologies + Pug and SQLite.
+This is an address book web application that involves web technologies like SQLite and PUG. 
 
-The app allows you to add addresses, and then edit and remove any (or all) of them. Once you add an address, an database file will be created to store all the data.
+The app allows you to add new addresses, and then edit and remove any (or all) of them. On adding a new address, an database file will be created to store all the data. This allows the data to persist after restarting all processes.
 
 
 # Usage 
